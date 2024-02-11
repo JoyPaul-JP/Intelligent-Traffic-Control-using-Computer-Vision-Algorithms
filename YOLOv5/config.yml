@@ -1,0 +1,10 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: ./output_txt_filetrain
+val: ./output_txt_fileval
+test: ./output_txt_filetest
+
+# number of classes
+nc: 5
+
+# class names
+names: ["car", "bus", "cng", "bike", "truck"]
